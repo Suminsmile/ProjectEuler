@@ -1,4 +1,4 @@
 # ProjectEuler
-Practice does not makes Perfect.
+Practice does not make Perfect.
 Only Perfect Practice makes Perfect.
 #Vince_Lombardi

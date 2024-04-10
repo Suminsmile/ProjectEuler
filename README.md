@@ -1,2 +1,4 @@
 # ProjectEuler
-Practice Makes Perfect
+"""Practice does not makes Perfect.
+Only perfect practice makes perfect."""
+#Vince Lombardi

@@ -24,9 +24,9 @@ def Q37_v1():
     """Truncatable prime 11개 찾고, 그의 합"""
     ans=[]
     for i in (2,3,5,7):
-        ans+=make_primes(n,[])
+        ans+=make_primes(i,[])
     for i in ans[:]:
-        div=10
+        div=10 
         while div<i:
             q,r=divmod(i,div)
             if not is_prime(q) or not is_prime(r):

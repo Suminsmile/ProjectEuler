@@ -1,4 +1,4 @@
-#Truncatable primes
+#Truncatable_primes
 def is_prime(n):
     """n이 소수이면 True 반환"""
     if n==2:

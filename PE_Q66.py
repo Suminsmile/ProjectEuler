@@ -6,7 +6,7 @@ def min_x(D):
     """주어진 D에 대해 x^2-Dy^2=1 의 최소 해 x"""
     if is_square(D):
         return None
-    m,d,a=0,1,int(math.sqrt(D))
+    m,d,a=0,1,int(math.sqrt(D)) #m:변화값, d:D의 변화값, a:D의 제곱근 정수부분
     num1,num,den1,den=1,a,0,1 #num:유리수 표현의 분자, den:분모
     while num**2-D*den**2 != 1: 
         m=d*a-m

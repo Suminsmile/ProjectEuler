@@ -7,8 +7,8 @@ def min_x(D):
     if is_square(D):
         return None
     m,d,a=0,1,int(math.sqrt(D))
-    num1,num,den1,den=1,a,0,1
-    while num**2-D*den**2 != 1:
+    num1,num,den1,den=1,a,0,1 #num:유리수 표현의 분자, den:분모
+    while num**2-D*den**2 != 1: 
         m=d*a-m
         d=(D-m**2)//d
         a=(int(math.sqrt(D))+m)//d
